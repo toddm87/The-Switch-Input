@@ -1,0 +1,31 @@
+.label {
+    position: relative;
+    width: 90px;
+    height: 36px;
+}
+
+input {
+    transform: scale(0);
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: #c6c8d6;
+    transition: background 0.4s;
+}
+
+.knob {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #f7f7f7;
+    transition: transform 0.4s;
+}
+
